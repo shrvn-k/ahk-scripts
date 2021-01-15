@@ -15,6 +15,9 @@ Alt & PgUp::SoundSet, +1
 Alt & PgDn::SoundSet, -1 
 Return
 
+;Screenshot with Pause key 
+Pause::SendInput, #!{PrintScreen}
+
 ;Always on top
 ^SPACE::  Winset, Alwaysontop, , A
 
